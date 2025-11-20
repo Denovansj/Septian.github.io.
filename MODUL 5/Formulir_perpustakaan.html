@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<header>
+    <hr>
+    <center>
+    <h1>FORMULIR PERPUSTAKAAN MADIUN</h1>
+</header>
+<body>
+    <center>
+    <form action="formulir.html" method="get">
+        <hr>
+        <p>NAMA ANGGOTA :<br><input type="text" name="nama" /></p>
+        <p>ID ANGGOTA :<br><input type="text" name="id_anggota" /></p>
+        <p>JUDUL BUKU :<br><input type="text" name="judul_buku" /></p>
+        <p>KODE BUKU :<br><input type="text" name="kode_buku" /></p>
+        <p>JUMLAH BUKU (MAKSIMAL 5) :
+            <select name="jumlah_buku">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+        </select>
+        <p>TANGGAL PINJAM :<br><input type="date" id="tanggal_pinjam" name="tanggal_pinjam"></p>
+        <p>TANGGAL PENGEMBALIAN :<br><input type="date" id="tanggal_kembali" name="tanggal_kembali"></p>
+        <textarea name="komentar" rows="5" cols="20">
+        Silahkan masukkan penilain anda
+        </textarea>
+        <hr>
+        <input type="submit" value="PINJAM" />
+        <hr>
+    </center>
+    </center>
+</body>
+</head>
+</html>
